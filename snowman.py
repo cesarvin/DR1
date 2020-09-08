@@ -27,13 +27,13 @@ r.scene.append( Sphere(V3(-0.10, 1.15,  -4), 0.04, button) )
 r.scene.append( Sphere(V3(0.10, 1.15,  -4), 0.04, button) )
 r.scene.append( Sphere(V3(-0.20, 1.10,  -4), 0.04, button) )
 
-#r.scene.append( Sphere(V3(0, 1.1,  -6), 0.18, button) )
-#r.scene.append( Sphere(V3(0, 0.2,  -6), 0.20, button) )
-#r.scene.append( Sphere(V3(0, -0.8,  -6), 0.22, button) )
+r.scene.append( Sphere(V3(0, 1.1,  -6), 0.18, button) )
+r.scene.append( Sphere(V3(0, 0.2,  -6), 0.20, button) )
+r.scene.append( Sphere(V3(0, -0.8,  -6), 0.22, button) )
 
-#r.scene.append( Sphere(V3(0, 2.6,  -8), 0.90, snowman) )
-#r.scene.append( Sphere(V3(0, 1,  -8), 1.25, snowman) )
-#r.scene.append( Sphere(V3(0, -1.1,  -8), 1.6, snowman) )
+r.scene.append( Sphere(V3(0, 2.6,  -8), 0.90, snowman) )
+r.scene.append( Sphere(V3(0, 1,  -8), 1.25, snowman) )
+r.scene.append( Sphere(V3(0, -1.1,  -8), 1.6, snowman) )
  
 r.rtRender()
 
